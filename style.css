@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         ikadon modified
 @namespace    github.com/North-West-Wind/ikadon
-@version      1.5.1
+@version      1.5.2
 @description  "<div>Check out the original style at <a rel=\"nofollow\" href=\"https://userstyles.org/styles/141847\" target=\"_blank\">userstyles.org</a><br/></div>某イカゲームっぽいmastodonテーマ\r\n\r\n↓参考記事。インスタンスや、ikadonの説明がとてもわかりやすく記事になっています。\r\nhttps://mochi-pounding.com/video-game/splatoon/mastodon-of-splatoon". Modified by NorthWestWind.
 @author       hiyaudon, NorthWestWind
 @license      CC0-1.0
@@ -176,26 +176,26 @@
     .drawer__tab {
         color: #000;
     }
-    .icon-button {
+    .icon-button, .text-icon-button {
         border-radius: 15px;
         color: #fff;
     }
     .icon-button.active {
         color: #FD751D !important;
     }
-    .icon-button:hover,
-    .icon-button:active,
-    .icon-button:focus {
+    .icon-button:hover:not(.disabled),
+    .icon-button:active:not(.disabled),
+    .icon-button:focus:not(.disabled) {
         color: #FD751D;
     }
-    .icon-button.inverted:hover,
-    .icon-button.inverted:active,
-    .icon-button.inverted:focus {
+    .icon-button.inverted:hover:not(.disabled),
+    .icon-button.inverted:active:not(.disabled),
+    .icon-button.inverted:focus:not(.disabled) {
         color: #FD751D;
     }
-    .text-icon-button:hover,
-    .text-icon-button:active,
-    .text-icon-button:focus {
+    .text-icon-button:hover:not(.disabled),
+    .text-icon-button:active:not(.disabled),
+    .text-icon-button:focus:not(.disabled) {
         color: #FD751D;
     }
     button.icon-button i.fa-retweet {
