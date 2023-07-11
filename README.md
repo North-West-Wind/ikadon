@@ -1,9 +1,10 @@
 # ikadon modified
-A modified version of ikadon by hiyaudon. Tweaked to fit wetdry.world, a Mastodon instance, specifically.
+A modified version of ikadon by hiyaudon, which is a Splatoon themed Mastodon userstyle. This is tweaked to fit wetdry.world, a Mastodon instance, specifically.
 
 ![preview](https://raw.githubusercontent.com/North-West-Wind/ikadon/main/preview.png)
 
-Original ikadon: https://userstyles.org/styles/141847/ikadon
+## Original ikadon
+https://userstyles.org/styles/141847/ikadon
 
 ## Other Instances
 To make this style work in another instance, edit the style in Stylish or Stylus and change wetdry.world to your Mastodon instance link.
