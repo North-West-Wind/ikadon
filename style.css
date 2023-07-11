@@ -4,7 +4,8 @@
 @version      20230706.15.02
 @description  "<div>Check out the original style at <a rel=\"nofollow\" href=\"https://userstyles.org/styles/141847\" target=\"_blank\">userstyles.org</a><br/></div>某イカゲームっぽいmastodonテーマ\r\n\r\n↓参考記事。インスタンスや、ikadonの説明がとてもわかりやすく記事になっています。\r\nhttps://mochi-pounding.com/video-game/splatoon/mastodon-of-splatoon". Modified by NorthWestWind.
 @author       hiyaudon, NorthWestWind
-@license      CC0-1.0==/UserStyle== */
+@license      CC0-1.0
+==/UserStyle== */
 @-moz-document domain("wetdry.world") {
     /* wrap */
     .ui {
