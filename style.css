@@ -393,6 +393,7 @@
     .drawer__inner .drawer__inner__mastodon img {
         margin-left: auto;
         margin-right: auto;
+        object-position: bottom center;
     }
     .drawer__header > * {
         color: #eee;
