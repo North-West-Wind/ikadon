@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         ikadon modified
 @namespace    github.com/North-West-Wind/ikadon
-@version      1.5.3
+@version      1.5.4
 @description  "<div>Check out the original style at <a rel=\"nofollow\" href=\"https://userstyles.org/styles/141847\" target=\"_blank\">userstyles.org</a><br/></div>某イカゲームっぽいmastodonテーマ\r\n\r\n↓参考記事。インスタンスや、ikadonの説明がとてもわかりやすく記事になっています。\r\nhttps://mochi-pounding.com/video-game/splatoon/mastodon-of-splatoon". Modified by NorthWestWind.
 @author       hiyaudon, NorthWestWind
 @license      CC0-1.0
@@ -17,7 +17,7 @@
         border-radius: 15px 15px 0 0;
         overflow: hidden;
     }
-    .drawer__header a:hover {
+    .drawer .drawer__header a:hover {
         background: rgba(0, 0, 0, .5);
         color: #fff;
     }
@@ -428,5 +428,46 @@
     
     .reply-indicator a {
         color: #faf;
+    }
+    
+    .drawer__header a:focus {
+        background: transparent;
+    }
+    
+    /* column text colors */
+    .columns-area > div:nth-child(2) .status__content__text {
+        color: #ffe;
+    }
+    
+    .columns-area > div:nth-child(2) .status__content__text a {
+        color: #ffa;
+    }
+    
+    .columns-area > div:nth-child(3) .status__content__text {
+        color: #def;
+    }
+    
+    .columns-area > div:nth-child(3) .status__content__text a {
+        color: #bbf;
+    }
+    
+    .columns-area > div:nth-child(4) .status__content__text {
+        color: #efe;
+    }
+    
+    .columns-area > div:nth-child(4) .status__content__text a {
+        color: #bfb;
+    }
+    
+    .columns-area > div:nth-child(4) .muted .status__content__text * {
+        color: #787;
+    }
+    
+    .columns-area > div:nth-child(5) .status__content__text {
+        color: #dff;
+    }
+    
+    .columns-area > div:nth-child(5) .status__content__text a {
+        color: #aff;
     }
 }
