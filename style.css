@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         ikadon modified
 @namespace    github.com/North-West-Wind/ikadon
-@version      1.6.1
+@version      1.6.2
 @description  "<div>Check out the original style at <a rel=\"nofollow\" href=\"https://userstyles.org/styles/141847\" target=\"_blank\">userstyles.org</a><br/></div>某イカゲームっぽいmastodonテーマ\r\n\r\n↓参考記事。インスタンスや、ikadonの説明がとてもわかりやすく記事になっています。\r\nhttps://mochi-pounding.com/video-game/splatoon/mastodon-of-splatoon". Modified by NorthWestWind.
 @author       hiyaudon, NorthWestWind
 @license      CC0-1.0
@@ -510,5 +510,31 @@
     
     .column-header .column-header__back-button.compact {
         color: inherit;
+    }
+    /* simple mode */
+    body.layout-single-column .ui {
+        background: repeating-linear-gradient(45deg, #2e2e2e, #2e2e2e 10px, #2a2a2a 0, #2a2a2a 20px);
+    }
+    
+    .columns-area__panels .navigation-bar {
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAAd0SU1FB+kGAg0zJBhmz3MAAADASURBVEjHzdZBCgMhDAXQH0yh0K562x68UBglXTkLi5jEjDPZKvIg8Su9X0nuuYAFl6pMwJcTuBDhc2MkEVwBWmGFCADAdeFsaAurxe3G1dAerAtcBR3BhsCjoFqYGhgFtcLMQC/UC3MDtdBZ2DSwBwViYDvwseWQAys0qvbOsADPrYS1JAwmTYvPhvZm+a8nq6GjNOgOzdFQbUwNpzoaag169bWbhXpfIHMuWKGzb7g7uEbQqM/FdLK2UACh37Mf61jI/uLJvv8AAAAASUVORK5CYII=);
+        border-radius: 15px;
+        padding: 15px;
+    }
+    
+    .navigation-panel__portal {
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAAd0SU1FB+kGAg0uFMHTk8MAAADJSURBVEjHzdVLDsMgDATQsUuU5BY9V+9/h0hNYbqilZAQP+czW1g8CTyW+fmi6gRyAaG4Sx6ywXOHIwgf3hDsuAM0wj4hAABcPLgamsJiXHrxbGgOlgWeBS3BisCjoLWwaqAVtBXWDOyF9sK6gbXQUdgwMAcViAnsB3Q6w3MHGUygVhEIVCc4zxXACqebCdQKRi4I1P8TXw1NYdk/eDY0BysOydHQEqx6iq2htbDmmhmFtsK6e7AV2gsbLuoSdBRmtklSKEgTWMwX+e0TjOcmT24AAAAASUVORK5CYII=) !important;
+        border-radius: 15px;
+        padding: 15px;
+    }
+    
+    .link-footer {
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAAd0SU1FB+kGAg0wEBL/aAUAAADISURBVEjHzdZbCgMhDIXhk5iWLqYb6v53USamL7UFQbwkc/HVQT4Z5Zcer6cxC3BLMMZlBr0VWRViBqhuoLzhCtACy2YAACkTZ0NrWBlSf3g0tAVrAo+C9mBd4F7QUdgwMAo6C5sGrkJXYcvAUagX5gY2oYQQ2A+YRJBVYc4FCzTslhPALBC7JxAS+PtLLGjnXlg5Mv+SnAytYe2SHAxtwfol2Rnag42XJBg6CpsviRM6C1svySR0FeYvSQfqhcWVpIICFvo8+wBUTfearH+33AAAAABJRU5ErkJggg==);
+        border-radius: 15px;
+        padding: 10px;
+    }
+    
+    .column-header__button {
+        color: inherit !important;
     }
 }
