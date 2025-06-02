@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         ikadon modified
 @namespace    github.com/North-West-Wind/ikadon
-@version      1.6.0
+@version      1.6.1
 @description  "<div>Check out the original style at <a rel=\"nofollow\" href=\"https://userstyles.org/styles/141847\" target=\"_blank\">userstyles.org</a><br/></div>某イカゲームっぽいmastodonテーマ\r\n\r\n↓参考記事。インスタンスや、ikadonの説明がとてもわかりやすく記事になっています。\r\nhttps://mochi-pounding.com/video-game/splatoon/mastodon-of-splatoon". Modified by NorthWestWind.
 @author       hiyaudon, NorthWestWind
 @license      CC0-1.0
@@ -130,7 +130,7 @@
         content: "\f123";
     }
     /* box scroll */
-    .column > .scrollable {
+    .column > .scrollable, .explore__search-results > .scrollable {
         background: repeating-linear-gradient(45deg, #1f1f1f, #1f1f1f 10px, #252525 0, #252525 20px);
         border-radius: 0 0 15px 15px;
     }
@@ -276,7 +276,7 @@
         transition: all 100ms ease-in;
     }
     /* search */
-    .search__input {
+    .search__input, .explore__search-header {
         background: repeating-linear-gradient(45deg, #1f1f1f, #1f1f1f 10px, #252525 0, #252525 20px);
     }
     .search__input:focus {
@@ -431,7 +431,7 @@
     }
 
     .columns-area > div:nth-child(5) .column-header {
-        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAAAxElEQVRIx83WWwrDIBAF0KsZkJYsoMvvBrq7khJINR9FPyyDOk5M7gLkyDzUPF7PYO8OxhGulLBu8MsKCt7j+/7ALBZXgEZY8B4AkDRnQ3NYzJ9iNJSDscBR0BKsCDwKWgurBmpBW2HNQClUChMDa6G9sG4gBwWgAkvAab6pHBihWjH2d2EyjjA5UiuJFiy2TCrx2dAcxvbgaCgHKw7J0dASrHqKtaG1sOY10wtthYn3YCtUCute1CVoL0ztJcmhAFS/Zzty5e8m8ytyDgAAAABJRU5ErkJggg==);
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAAAxElEQVRIx83WWwrDIBAF0KsZkJYsoMvvBrq7khJINR9FPyyDOk5M7gLkyDzUPF7PYO8OxhGulLBu8MsKCt7j+/7ALBZXgEZY8B4AkDRnQ3NYzJ9iNJSDscBR0BKsCDwKWgurBmpBW2HNQClUChMDa6G9sG4gBwWgAkvAab6pHBihWjH2d2EyjjA5UiuJFiy2TCrx2dAcxvbgaCgHKw7J0dASrHqKtaG1sOY10wtthYn3YCtUCute1CVoL0ztJcmhAFS/Zzty5e8m8ytyDgAAAABJRU5ErkJggg==) !important;
     }
     
     .reply-indicator a {
@@ -506,5 +506,9 @@
     
     .columns-area > div:nth-child(5) {
         margin-right: 15px;
+    }
+    
+    .column-header .column-header__back-button.compact {
+        color: inherit;
     }
 }
