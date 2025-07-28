@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         ikadon modified
 @namespace    github.com/North-West-Wind/ikadon
-@version      1.6.3
+@version      1.6.4
 @description  "<div>Check out the original style at <a rel=\"nofollow\" href=\"https://userstyles.org/styles/141847\" target=\"_blank\">userstyles.org</a><br/></div>某イカゲームっぽいmastodonテーマ\r\n\r\n↓参考記事。インスタンスや、ikadonの説明がとてもわかりやすく記事になっています。\r\nhttps://mochi-pounding.com/video-game/splatoon/mastodon-of-splatoon". Modified by NorthWestWind.
 @author       hiyaudon, NorthWestWind
 @license      CC0-1.0
@@ -75,9 +75,17 @@
         color: #fff;
     }
     /* box inner */
-    .drawer__inner {
+    .drawer__inner, .navigation-panel__menu {
         background: repeating-linear-gradient(45deg, #1f1f1f, #1f1f1f 10px, #252525 0, #252525 20px);
         border-radius: 0 0 15px 15px;
+    }
+    
+    .navigation-panel {
+        margin-top: 15px;
+    }
+    
+    .navigation-panel .navigation-panel__menu {
+        border-radius: 15px;   
     }
     
     .notification__filter-bar, .account__section-headline {
@@ -521,9 +529,8 @@
     }
     
     .navigation-panel__portal {
-        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAAd0SU1FB+kGAg0uFMHTk8MAAADJSURBVEjHzdVLDsMgDATQsUuU5BY9V+9/h0hNYbqilZAQP+czW1g8CTyW+fmi6gRyAaG4Sx6ywXOHIwgf3hDsuAM0wj4hAABcPLgamsJiXHrxbGgOlgWeBS3BisCjoLWwaqAVtBXWDOyF9sK6gbXQUdgwMAcViAnsB3Q6w3MHGUygVhEIVCc4zxXACqebCdQKRi4I1P8TXw1NYdk/eDY0BysOydHQEqx6iq2htbDmmhmFtsK6e7AV2gsbLuoSdBRmtklSKEgTWMwX+e0TjOcmT24AAAAASUVORK5CYII=) !important;
         border-radius: 15px;
-        padding: 15px;
+        /*padding: 15px;*/
     }
     
     .link-footer {
